@@ -1,5 +1,3 @@
-<div style="text-align: justify">  
-
 # G-Code converter
 This repository contains a G-Code converter developed at +Lab, Politecnico di Milano.
 
@@ -25,6 +23,7 @@ This project focuses on the development of a user-friendly software solution spe
 The need for such a tool arises from the necessity to use an in-house built 3D-Printer, featuring multiple nozzles and unconventional pieces of electronics.	
 The development of a software for G-Codes conversion allows to properly control the machine and to develop specific routines.   
 ### Machine functioning  
+
 The machine under investigation is a multi-nozzle 3D-Printer for the deposition of liquid materials. Such materials are contained into syringes and extruded through a nozzle.	    
 
 In order to start printing, the selected head has to be activated (the print-head is lowered and deposition has to start). While, in order to switch head, the one in use has to be deactivated (the print-head is lifted and deposition has to stop) and, successively, the next one has to be activated. 
